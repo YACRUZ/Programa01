@@ -21,7 +21,7 @@ public class Programa01 {
         Connection con = null;
         Statement st = null;
         try {
-            String sql = "insert into ejemplo (clave, nombre, direccion, telefono) values " 
+            String sql = "insert into empleados (clave, nombre, direccion, telefono) values " 
                     + " ('01', 'Gabriel', 'av 1', '555')";
             String url = "jdbc:postgresql://127.0.0.1:5432/ejemplo";
             String pwd = "YAHIRJE02";
